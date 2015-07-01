@@ -1,1 +1,49 @@
-.
+# Teste de Conhecimentos – Analista Desenvolvedor
+
+## Questão 1
+
+ Escreva um programa que imprima números de 1 a 100. Mas, para múltiplos de 3 imprima “Fizz” em vez do número e para múltiplos de 5 imprima “Buzz”.
+Para números múltiplos de ambos (3 e 5), imprima “FizzBuzz”.
+ 
+### Solução
+
+Foi utilizado o operador aritmético módulo (%) para calcular o resto da divisão (verificando se é múltiplo de 3 ou 5). 
+A função foi desenvolvida para poder adaptar o script futuramente (caso seja necessário imprimir de 2 a 200, por exemplo). 
+ 
+O código está na pasta "Questão 01", arquivo "quest_01.php".
+
+
+## Questão 2
+
+2. Refatore o código abaixo, fazendo as alterações que julgar necessário.
+
+
+### Solução
+
+Foi removido o if que estava duplicado.  
+
+O código está na pasta "Questão 02", arquivo "quest_02.php".
+
+
+## Questão 3
+
+3. Refatore o código abaixo, fazendo as alterações que julgar necessário. 
+
+
+### Solução
+
+Nesse script temos o método getUserList, que tem a função de retornar uma lista de usuários ordenado em ordem alfabética.
+No código passado no exercício,  para o funcionamento do método é instanciado um objeto para conexão com o banco de dados toda vez que o método for chamado.
+Com as alterações é possível utilizar o método sem a necessidade de criar um novo objeto. Além de permitir utilizar o mesmo método em diferentes conexões com o banco de dados.
+
+## Questão 4
+
+4. Desenvolva uma API Rest para um sistema gerenciador de tarefas (inclusão/alteração/exclusão). As tarefas consistem em título e descrição, ordenadas por prioridade. Desenvolver utilizando: • Linguagem PHP (ou framework CakePHP); • Banco de dados MySQL;  
+Diferenciais: • Criação de interface para visualização da lista de tarefas; • Interface com drag and drop; • Interface responsiva (desktop e mobile); 
+
+### Solução
+
+Para executar, siga os seguintes procedimentos:
+Crie uma nova base de dados, com o nome "projeto" e importe o arquivo "projeto.sql", que esta na pasta Questão 04 -> quest_04 -> BD
+Configure os dados de acesso ao banco de dados no arquivo app/config/database.php.
+
